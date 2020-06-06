@@ -5,10 +5,19 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>JavaPackageTest</groupId>
-  <artifactId>JavaPackageTest</artifactId>
+  <groupId>packagesample.maven.test</groupId>
+  <artifactId>JavaInheritance-Test</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
-  
-  <name>Replace for JavaPackageTest</name>
-</project>
+  <version>1.1-SNAPSHOT</version>
+  <properties>
+   <maven.compiler.source>7</maven.compiler.source>
+   <maven.compiler.target>1.7</maven.compiler.target>
+ </properties>
+
+  <name>Inheritance Java</name>
+  <description> This project is a sample maven project designed to work 
+	  with java applications packaged into JAR a file.
+  </description>
+  <inceptionYear>2020</inceptionYear>
+  <url>http://javatestproject.com</url>
+  </project>
